@@ -48,7 +48,7 @@ public class NetManager : MonoBehaviour
         //pos.y = (float)-4.75;
         //pos.z = (float)-10.31;
         pos.x = (float)7.35;
-        pos.y = (float)4.15;
+        pos.y = (float)19.1;
         pos.z = (float)13.9;
         Debug.Log("OnJoinedRoom() called by PUN. Now this client is in a room. From here on, your game would be running. For reference, all callbacks are listed in enum: PhotonNetworkingMessage");
         GameObject go = PhotonNetwork.Instantiate(avatarPrefab.name, pos , Quaternion.identity, 0);
